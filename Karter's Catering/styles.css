@@ -1,0 +1,225 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:ital,wght@1,500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200&display=swap');
+
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    margin: 0 auto;
+    background-color: #F7ECDE 
+}
+h2 {
+    color: #9E7777;
+}
+
+/* Food Banner Section */
+.food-banner {
+    height: 500px;
+    background-image: url(images/foodbanner.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+}
+
+.banner-title {
+    font-family: 'Kanit', sans-serif;
+    font-size: 50px;
+    margin-top: 10px;
+    color: #9E7777;
+    padding-right: 5px;
+}
+
+/* Chef Background Section */
+.chef-background {
+    height: 520px;
+    margin: 20px 250px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    display: inline-block;
+
+}
+
+.chef-photo {
+    height: 150px;
+    width: 180px;
+    border: 4px solid #9E7777;
+    margin-right: 5px;
+    float: left;
+    
+}
+
+.background-heading {
+    color: #9E7777;
+    font-size: 50px;
+    text-align: center;
+   
+}
+
+/* Photo Grid Section */
+.photo-grid {
+    height: 950px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-top: 20px;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-rows: 200px 350px 200px;
+    grid-template-columns: 200px 400px 200px;
+    gap: 10px;
+    padding-top: 20px;
+    
+}
+
+.photo-grid-heading {
+    color: #9E7777;
+    font-size: 50px;
+   
+}
+
+.grid-1 {
+    grid-column: 1 / 2;
+   grid-row: 1 / span 2;
+}
+.grid-2 {
+    grid-column: 2 / span 2;
+    grid-row: 1 / 2;
+}
+.grid-3 {
+    grid-column: 2 / 3;
+    grid-row: 2 / span 2;
+}    
+.grid-4 {
+    grid-column: 3 / 4;
+    grid-row: 2 / 3;
+}
+.grid-5 {
+    grid-column: 1 / 2;
+    grid-row: 3 / 4;
+}
+.grid-6 {
+    grid-column: 3 / 4;
+    grid-row: 3 / 4;
+}
+
+.grid-images {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+/*Pricing Section */
+
+.pricing-container {
+    height: 600px;
+    margin: 20px 150px;
+    padding-top: 20px;
+    
+}
+.card-container {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+}
+
+.pricing-heading {
+    color: #9E7777;
+    font-size: 50px;
+    text-align: center;
+}
+
+.card {
+    height: 300px;
+    width: 250px;
+    margin: auto 10px;
+    border-radius: 5px;
+    box-shadow: 2px 1px 2px 1px grey;
+    
+}
+.card:hover {
+    box-shadow: 10px 8px 10px 8px grey;
+}
+.card-img {
+    height: 150px;
+    background-size: cover;
+    opacity: 0.8;
+    
+}
+.img-1 {
+    background-image: url(images/cheesesteak-eggroll.jpg);
+}
+.img-2 {
+   background-image: url(images/orange-glaze-cheesecake.jpg);
+}
+.img-3 {
+    background-image: url(images/burger.jpg);
+}
+
+.card-price {
+    height: 150px;
+    border-top: 1px solid #9E7777;;
+    display: flex;
+    flex-direction: column;
+    font-weight: bold;
+    align-items: center;
+    justify-content: center;
+    color: #9E7777;
+    background-color: #EDCDBB;
+    line-height: 1px;
+}
+
+.card-btn {
+    height: 50px;
+    width: 70px;
+    background-color: #E3B7A0;
+    border: none;
+    border-radius: 10px;
+    box-shadow: 2px 1px 2px 1px grey;
+}
+
+.card-btn:hover {
+    box-shadow: 5px 2px 5px 2px grey;
+}
+
+a {
+    text-decoration: none;
+    color: #9E7777;
+    text-transform: uppercase;
+}
+
+/* Footer Section */
+.footer-container {
+    height: 80px;
+    background-color: #EDCDBB;
+    border: 1px solid #9E7777;
+}
+.social-media {
+    height: 62.5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.media-icon {
+    height: 30px;
+    width: 30px;
+    margin-right: 4px;
+}
+.media-icon:hover {
+    cursor: pointer;
+}
+
+footer {
+    font-size: small;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+    color: #9E7777;
+}
+
+
